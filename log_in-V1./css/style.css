@@ -1,0 +1,93 @@
+body {
+    background-image: url("https://www.pixel4k.com/wp-content/uploads/2018/10/beautiful-landscape-forest-view-from-faraway-4k_1540140117.jpg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: padding-box;
+}
+
+form {
+    width: 500px;
+    border: 3px solid rgb(36, 36, 36);
+    padding: 20px;
+    background: rgb(165, 165, 165);
+    border-radius: 20px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+input {
+    display: block;
+    border: 2px solid rgb(36, 36, 36);
+    width: 90%;
+    padding: 15px;
+    margin: 10px auto;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+label {
+    color: rgb(37, 37, 37);
+    font-size: 15px;
+    padding: 10px;
+}
+
+button {
+    float: right;
+    background: rgb(188, 202, 35);
+    padding: 10px 15px;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    margin-right: 10px;
+    border: none;
+    font-size: 18px;
+}
+
+button:hover{
+    opacity: .10;
+}
+
+.error {
+   background: #F2DEDE;
+   color: #0c0101;
+   padding: 10px;
+   width: 95%;
+   border-radius: 5px;
+   margin: 20px auto;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(134, 3, 3);
+}
+
+a {
+    float: right;
+    background: rgb(1, 157, 189);
+    padding: 10px 15px;
+    color: rgb(46, 231, 255);
+    border-radius: 10px;
+    margin-right: 10px;
+    border: none;
+    text-decoration: none;
+}
+
+a:hover{
+    opacity: .7;
+}
+
+.checkbox{
+    display:inline-block;
+    width:19px;
+    height:19px;
+    cursor:pointer;
+}
